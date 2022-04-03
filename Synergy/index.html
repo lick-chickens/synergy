@@ -1,0 +1,45 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Synergy</title>
+  <meta name="description" content="A web-based password manager with no logins and no databases">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:title" content="Synergy password manager">
+  <meta property="og:type" content="Website">
+  <meta property="og:url" content="https://chung.digital/synergy">
+  <meta property="og:image" content="">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/index.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+
+  <h1><syn>Synergy</syn> password manager</h1>
+  <h2>A security experiment.</h2>
+
+  <form action="#">
+    <input type="text" placeholder="Service" class="input" id="service" /><br><br>
+    <input placeholder="Master key" type="password" class="input" id="master" /><br><br><br>
+    <button class="btn" id="generate" type="button">Generate</button>
+  </form>
+
+  <br><h2 id="result"></h2>
+
+  <script src="js/vendor/modernizr-3.11.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/md5-min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
